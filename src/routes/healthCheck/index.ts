@@ -10,18 +10,9 @@ router.get("/", (req, res) => {
 });
 
 // check error heandler in server
-router.get("/Error", (req, res, next) => {
+router.get("/error", (req, res, next) => {
   try {
     throw new Error("basic error message");
-  } catch (err) {
-    next(err);
-  }
-});
-
-// check error heandler in server
-router.get("/Error", (req, res, next) => {
-  try {
-    throw new Error("basic error");
   } catch (err) {
     next(err);
   }
