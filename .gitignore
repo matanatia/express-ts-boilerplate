@@ -5,7 +5,7 @@ compTests
 .npmrc
 
 # local env files
-.env
+/.env
 
 # Log files
 npm-debug.log*
