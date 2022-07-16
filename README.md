@@ -1,4 +1,4 @@
-# Express Crash Course
+# Express TS Boilerplate
 
 > This is a boilerplate for Express server with TS
 
